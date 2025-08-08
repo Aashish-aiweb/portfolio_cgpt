@@ -1,0 +1,17 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+}
